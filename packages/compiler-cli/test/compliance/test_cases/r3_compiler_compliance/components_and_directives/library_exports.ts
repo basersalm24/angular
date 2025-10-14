@@ -2,7 +2,7 @@
 // even in the presence of alias exports that could have been chosen.
 // See https://github.com/angular/angular/issues/41277.
 import {Component, NgModule} from '@angular/core';
-import {LibModule} from 'external_library';
+import {LibModule} from './external_library';
 
 @Component({
     template: `
