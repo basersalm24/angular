@@ -21,12 +21,25 @@ export default [
     ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
     ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
     ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+    ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
   ],
   [
     ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
     ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ],
   ],
   [
     ['B', 'A'],
@@ -42,10 +55,18 @@ export default [
   'USD',
   '$',
   'US Dollar',
-  {'AUD': ['A$', '$'], 'CAD': ['CA$', '$'], 'CNY': ['CN¥', '¥'], 'GBP': ['£', '£'], 'JPY': ['¥'], 'USD': ['$'], 'VND': ['₫']},
+  {
+    'AUD': ['A$', '$'],
+    'CAD': ['CA$', '$'],
+    'CNY': ['CN¥', '¥'],
+    'GBP': ['£', '£'],
+    'JPY': ['¥'],
+    'USD': ['$'],
+    'VND': ['₫'],
+  },
   'ltr',
   plural,
-  []
+  [],
 ];
 
 function plural(n: number): number {

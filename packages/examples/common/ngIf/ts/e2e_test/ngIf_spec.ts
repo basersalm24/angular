@@ -25,9 +25,9 @@ describe('ngIf', () => {
     it('should hide/show content', () => {
       browser.get(URL);
       waitForElement(comp);
-      expect(element.all(by.css(comp)).get(0).getText()).toBe('hide show = true\nText to show');
+      expect(element.all(by.css(comp)).get(0).getText()).toEqual('hide show = true\nText to show');
       element(by.css(comp + ' button')).click();
-      expect(element.all(by.css(comp)).get(0).getText()).toBe('show show = false');
+      expect(element.all(by.css(comp)).get(0).getText()).toEqual('show show = false');
     });
   });
 
@@ -36,9 +36,9 @@ describe('ngIf', () => {
     it('should hide/show content', () => {
       browser.get(URL);
       waitForElement(comp);
-      expect(element.all(by.css(comp)).get(0).getText()).toBe('hide show = true\nText to show');
+      expect(element.all(by.css(comp)).get(0).getText()).toEqual('hide show = true\nText to show');
       element(by.css(comp + ' button')).click();
-      expect(element.all(by.css(comp)).get(0).getText()).toBe(
+      expect(element.all(by.css(comp)).get(0).getText()).toEqual(
         'show show = false\nAlternate text while primary text is hidden',
       );
     });

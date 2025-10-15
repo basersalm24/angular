@@ -2047,3 +2047,4 @@ case 'zu':
 if (l) {
   locales.forEach(locale => registerLocaleData(l, locale, e));
 }
+

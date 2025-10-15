@@ -8,7 +8,7 @@
 
 // Mock locale data for testing
 export default [
-  'de',
+  'de-AT',
   [
     ['AM', 'PM'],
     ['vorm.', 'nachm.'],
@@ -25,9 +25,9 @@ export default [
   ],
   [
     ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
-    ['Jan.', 'Feb.', 'Mär.', 'Apr.', 'Mai', 'Juni', 'Juli', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dez.'],
+    ['Jän.', 'Feb.', 'Mär.', 'Apr.', 'Mai', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dez.'],
     [
-      'Januar',
+      'Jänner',
       'Februar',
       'März',
       'April',
@@ -50,7 +50,7 @@ export default [
   ['dd.MM.yy', 'dd.MM.y', 'd. MMMM y', 'EEEE, d. MMMM y'],
   ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
   ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
-  [',', '.', ';', '%', '+', '-', 'E', '·', '‰', '∞', 'NaN', ':'],
+  [',', ' ', ';', '%', '+', '-', 'E', '·', '‰', '∞', 'NaN', ':'],
   ['#,##0.###', '#,##0.00', '#,##0', '#E0'],
   'EUR',
   '€',
